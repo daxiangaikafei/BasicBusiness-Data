@@ -1,0 +1,15 @@
+{
+    "success": true,
+    "returnCode": 0,
+    "message": "1111",
+    "data": [
+        {
+            "score": 200,
+            "scoreStr": "信用良好"
+        },
+        {
+            "score": 1000,
+            "scoreStr": "信用优秀"
+        }
+    ]
+}

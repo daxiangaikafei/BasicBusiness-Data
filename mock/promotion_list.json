@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "returnCode": 0,
+  "message": "ok",
+  "data": [
+    {
+      "promotionType": 15,
+      "imgUrl": "https://qn-act.qbcdn.com/assistant/t-shirt.jpg",
+      "url": "http://qn-act.qbcdn.com/assistant.png"
+    },
+    {
+      "promotionType": 12,
+      "imgUrl": "http://image63.360doc.com/DownloadImg/2013/08/1817/34582413_3.jpg",
+      "url": "http://qn-act.qbcdn.com/assistant.png"
+    },
+    {
+      "promotionType": 11,
+      "imgUrl": "http://www.bz55.com/uploads/allimg/150707/140-150FFU410.jpg",
+      "url": "http://qn-act.qbcdn.com/assistant.png"
+    },
+    {
+      "promotionType": 13,
+      "imgUrl": "http://www.bz55.com/uploads/allimg/150707/140-150FFU410.jpg",
+      "url": "http://qn-act.qbcdn.com/assistant.png"
+    }
+  ]
+}
