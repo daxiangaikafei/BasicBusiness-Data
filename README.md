@@ -72,7 +72,7 @@ export default [{
     }]
 }]
 
-```
+```,
 
 ## 创建vue实例
 ```js
