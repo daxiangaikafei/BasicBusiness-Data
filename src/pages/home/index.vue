@@ -5,25 +5,25 @@
 		      <header class="signed-title">今日签到用户数</header>
 		      <div class="signed-numbers number-flow" lang="singNumbers">
 		          <ul class="item">
-		              <img src="../../images/six.png"/>
+		              <img src="../../static/images/six.png"/>
 		          </ul>
 		          <ul class="item">
-		              <img src="../../images/six.png"/>
+		              <img src="../../static/images/six.png"/>
 		          </ul>
 		          <ul class="item">
-		              <img src="../../images/six.png"/>
+		              <img src="../../static/images/six.png"/>
 		          </ul>
 		          <ul class="item">
-		              <img src="../../images/six.png"/>
+		              <img src="../../static/images/six.png"/>
 		          </ul>
 		          <ul class="item">
-		              <img src="../../images/six.png"/>
+		              <img src="../../static/images/six.png"/>
 		          </ul>
 		          <ul class="item">
-		              <img src="../../images/six.png"/>
+		              <img src="../../static/images/six.png"/>
 		          </ul>
 		          <ul class="item">
-		              <img src="../../images/six.png"/>
+		              <img src="../../static/images/six.png"/>
 		          </ul>
 		      </div>
 		  </div>
@@ -138,7 +138,7 @@
 <script>
 import ajax from '../../config/ajax'
 import '../../plugins/swiper.min.js'
-import '../../style/swiper.min.css'
+import '../../static/style/swiper.min.css'
 import ApiControl from '../../config/envConfig.home'
 var env = 'debug';// set env type for debug or product
 export default {
@@ -232,7 +232,7 @@ export default {
       min-width: 22px; 
       height: 18px;
       margin-top: 3px;
-      background: url('../../images/pc.png') no-repeat;
+      background: url('../../static/images/pc.png') no-repeat;
       width: 12%;
     }
     .proportion-mobile{
@@ -240,7 +240,7 @@ export default {
       min-width: 10px;
       height: 18px;
       margin-top: 3px;
-      background: url('../../images/mobile.png') no-repeat;
+      background: url('../../static/images/mobile.png') no-repeat;
       width: 5%;
     }
     .proportion-container{
@@ -290,7 +290,7 @@ export default {
           float: left;
           .icon-img{
             height: 48px;
-            background: url('../../images/tab-icon.png') no-repeat;
+            background: url('../../static/images/tab-icon.png') no-repeat;
             background-size: cover;
           }
         }
@@ -410,7 +410,7 @@ export default {
             width: 45px;
             height: 15px;
             margin: 0 auto;
-            background:url('../../images/signed.png');
+            background:url('../../static/images/signed.png');
             background-size: 45px;
           }
 
@@ -418,7 +418,7 @@ export default {
             width: 45px;
             height: 15px;
             margin: 0 auto;
-            background:url('../../images/sign.png');
+            background:url('../../static/images/sign.png');
             background-size: 45px;
           }
         }
@@ -449,7 +449,7 @@ export default {
             }
             .simple-check-signed{
               height:15px;
-              background:url('../../images/signed.png');
+              background:url('../../static/images/signed.png');
               width: 45px;
               font-size: 13px;
               margin: 0 auto;
@@ -458,7 +458,7 @@ export default {
 
             .simple-check-signed-no{
               height: 15px;
-              background: url('../../images/sign.png');
+              background: url('../../static/images/sign.png');
               width: 45px;
               font-size: 13px;
               margin: 0 auto;

@@ -17,7 +17,7 @@ module.exports = {
     output: {
         path: config.build.assetsRoot,
         publicPath: process.env.NODE_ENV === 'production' ? config.build.assetsPublicPath : config.dev.assetsPublicPath,
-        filename: '[name].js'
+        filename: '[name].[hash].js'
     },
     resolve: {
         extensions: ['', '.js', '.vue', '.less', '.css', '.scss'],
@@ -45,17 +45,20 @@ module.exports = {
             test: /\.json$/,
             loader: 'json'
         }, {
+            test: /\.sass$/,
+            loaders: ['style', 'css', 'sass']
+        },{
             test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
             loader: 'url',
             query: {
-                limit: 10000,
+                limit: 10000,//unit is byte
                 name: utils.assetsPath('img/[name].[ext]')
             }
         }, {
             test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
             loader: 'url',
             query: {
-                limit: 10000,
+                limit: 10000,// unit is byte
                 name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
             }
         }]

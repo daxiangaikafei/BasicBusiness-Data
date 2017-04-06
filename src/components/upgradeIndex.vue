@@ -41,23 +41,23 @@
 		  <div class="ul-content">
 		    <ul>
 		      <li class="ul-refs" data-refs="../personal/page.html">
-		        <div class="ul-item-left"><i class="icon"><img style="height: 50%;width:50%;" src="../images/credit/creditIndex/gerenxinxi.png"></i></div>
+		        <div class="ul-item-left"><i class="icon"><img style="height: 50%;width:50%;" src="../static/images/credit/creditIndex/gerenxinxi.png"></i></div>
 		        <div class="ul-item-right">完善个人信息<i class="icon-arrow icon icon-circle-right"></i></div>
 		      </li>
 		      <li class="ul-refs" data-refs="../school/page.html">
-		        <div class="ul-item-left"><i class="icon"><img src="../images/credit/creditIndex/xueli.png"></i></div>
+		        <div class="ul-item-left"><i class="icon"><img src="../static/images/credit/creditIndex/xueli.png"></i></div>
 		        <div class="ul-item-right">提交学历学籍<i class="icon-arrow icon icon-circle-right"></i></div>
 		      </li>
 		      <li class="ul-refs" data-refs="../creditEmail/page.html">
-		        <div class="ul-item-left"><i class="icon"><img style="height: 38%;width:50%;" src="../images/credit/creditIndex/mail.png"></i></div>
+		        <div class="ul-item-left"><i class="icon"><img style="height: 38%;width:50%;" src="../static/images/credit/creditIndex/mail.png"></i></div>
 		        <div class="ul-item-right">绑定单位邮箱<i class="icon-arrow icon icon-circle-right"></i></div>
 		      </li>
 		      <li class="ul-refs" data-refs="../addcar/page.html">
-		        <div class="ul-item-left"><i class="icon"><img src="../images/credit/creditIndex/car-logo.png"></i></div>
+		        <div class="ul-item-left"><i class="icon"><img src="../static/images/credit/creditIndex/car-logo.png"></i></div>
 		        <div class="ul-item-right">录入车辆信息<i class="icon-arrow icon icon-circle-right"></i></div>
 		      </li>
 		      <li class="ul-refs" data-refs="../editlike/page.html">
-		        <div class="ul-item-left"><i class="icon"><img style="height: 40%;width:50%;" src="../images/credit/creditIndex/like.png"></i></div>
+		        <div class="ul-item-left"><i class="icon"><img style="height: 40%;width:50%;" src="../static/images/credit/creditIndex/like.png"></i></div>
 		        <div class="ul-item-right">定制兴趣爱好<i class="icon-arrow icon icon-circle-right"></i></div>
 		      </li>
 		    </ul>
@@ -111,14 +111,14 @@
 </script>
 
 <style lang="less">
-@import '../style/icon-style.css';
+@import '../static/style/icon-style.css';
 @big:   ~"only screen and (min-width: 376px)";
 @small:    ~"only screen and (max-width: 340px)";
 @middle:    ~"only screen and (min-width: 341px) and (max-width: 375px)";
 
 @font-face {
   font-family: dbold;
-  src: url('/newlibs/font/default/default-bold.ttf');
+  src: url('../static/style/font/default/default-bold.ttf');
 }
 
 @media @big {
